@@ -134,6 +134,17 @@ section{
     align-items: center;
     background-color: var(--black);
     gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.abaut .row .container-img,
+.abaut .row .content{
+    flex: 1 1 40rem;
+}
+
+.abaut .row .container-img img{
+    width: 100%;
+    display: block;
 }
 
 .abaut .row .content{
@@ -303,6 +314,20 @@ section{
 
     .menu-btn{
         display: flex;
+    }
+
+    .abaut .row{
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .abaut .row .container-img,
+    .abaut .row .content{
+        flex: 1 1 100%;
+    }
+
+    .abaut .row .content{
+        padding: 1.5rem 0;
     }
 }
 
